@@ -7,7 +7,7 @@ from neural_network.network import NN
 x = [2, 3, -1]
 n = NN(
     3, [3, 3, 3, 1]
-)  # rede com 3 inputs, e camadas de 3 neurônios, 3 neurônios, 3 neurônios e 1 último neurônio
+)  # rede com 3 inputs, e camadas de: 3 neurônios, 3 neurônios, 3 neurônios e 1 último neurônio.
 n(x)
 
 draw(n(x))
